@@ -305,5 +305,5 @@ int CXl::Close() {
     CoUninitialize();
     MessageBoxA(NULL, "성공적으로 작업이 종료되었습니다", "알림", MB_OK | MB_ICONINFORMATION);
 
-    return 0;
+    return 1;
 }

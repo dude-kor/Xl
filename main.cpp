@@ -21,9 +21,7 @@ int main() {
 
     //printf("%d", xl.Save());
 
+    printf("%d\n", xl.Close());
 
-    //xl.Close();
-
-    //CoUninitialize();
     return 0;
 }
